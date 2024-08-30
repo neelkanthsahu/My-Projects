@@ -1,0 +1,159 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+:root{
+	--body-color--:#1d1a49;
+}
+body{
+	font-family:'Roboto', sans-serif;
+}
+/* header css */
+.bg-color{
+	background-color:#03a9f4;
+}
+.color-blue{
+	color:#1d1a49 !important;
+}
+.font-24{
+	font-size:24px;
+}
+.pad-10{
+	padding:10px;
+}
+.pad-tb-6{
+	padding:6px 10px;
+}
+.margin-top-10{
+	margin-top:10px;
+}
+.margin-top-30{
+	margin-top:30px;
+}
+.margin-tb-40{
+	margin:40px 0px;
+}
+.pad-lr-15{
+	padding:10px 15px;
+}
+.bg-red{
+	background-color:#eb4343;
+}
+header button{
+	border:none;
+}
+/* nav css */
+nav{
+	box-shadow:0px 0px 2px 0px;
+	height:60px;
+	position:sticky;
+	top:0px;
+	background-color:white !important;
+	z-index:999;
+}
+/* banner css */
+.banner-bg{
+	background-image:url(../img/banner.jpg);
+	height: 460px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.banner-bg>row{
+	
+}
+.top-left{
+    top: 120px;
+    left: 50px;
+}
+.banner-img{
+	top:64px;
+    left:90px;
+}
+.banner-img>img{
+	width:500px;
+    height:330px;
+}
+/* about css */
+.about-img>img{
+	display:block;
+	width:90%;
+}
+.about-content p{
+	line-height:2;
+	color:#000000c2;
+	font-size:17px;
+}
+.about-doctor{
+	margin-top:60px;
+}
+.border-bottom{
+	border:3px solid #03a9f4;;
+	width:8%;
+	margin:0 auto;
+}
+/* services css */
+.services .card{
+	width:350px;
+	height:300px;
+}
+.services .card>img{
+	width:350px;
+	height:350px;
+}
+.heading-margin{
+	margin:20px 0px 40px 0px;
+}
+.bg-gray{
+	background-color:#e9f1f6;
+	padding:80px 0px;
+}
+/* gallery css */
+.gallery-content img{
+	width:33%;
+	height:270px;
+	padding:10px;
+}
+/* contact css */
+.contactus-illustration>img{
+	display:block;
+	width:80%;
+}
+/* .emergency-css */
+.emergency{
+	background-color:#03a9f4;
+	padding:10px;
+}
+/* footer css */
+.footer-content li{
+	padding:10px 0px;
+}
+.footer-content a{
+	text-decoration:none;
+	cursor:pointer;
+}
+.fb{
+	background-color:#4267B2;
+}
+.insta{
+	background-color:#bc2a8d;
+}
+.link{
+	background-color:#0077b5;
+}
+.tw{
+	background-color:#1DA1F2;
+}
+.fb, .insta, .link, .tw{
+	padding:10px;
+	color:white;
+	display:block;
+}
+.whatsapp img{
+	position:fixed;
+	right:20px;
+	top:250px;
+	z-index:999;
+}
